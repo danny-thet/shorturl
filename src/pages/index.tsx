@@ -1,5 +1,4 @@
 import { HeaderResponsive } from "../components/HeaderResponsive";
-import styles from "../styles/Home.module.css";
 
 const mockLinks = [
 	{ link: "One", label: "One" },

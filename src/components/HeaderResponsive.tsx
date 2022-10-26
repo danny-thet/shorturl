@@ -124,6 +124,9 @@ export const HeaderResponsive = ({ links }: HeaderResponsiveProps) => {
 				<Group spacing={5} className={classes.links}>
 					{items}
 				</Group>
+				<Group spacing={5} className={classes.links}>
+					{items}
+				</Group>
 
 				<Burger
 					opened={opened}
@@ -135,6 +138,7 @@ export const HeaderResponsive = ({ links }: HeaderResponsiveProps) => {
 				<Transition transition="pop-top-right" duration={200} mounted={opened}>
 					{(styles) => (
 						<Paper className={classes.dropdown} withBorder style={styles}>
+							{items}
 							{items}
 						</Paper>
 					)}
