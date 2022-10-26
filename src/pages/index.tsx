@@ -1,6 +1,4 @@
-import Head from "next/head";
-import Image from "next/image";
-import { HeaderResponsive } from "../components/HeaderResonspive";
+import { HeaderResponsive } from "../components/HeaderResponsive";
 import styles from "../styles/Home.module.css";
 
 const mockLinks = [
@@ -10,9 +8,5 @@ const mockLinks = [
 ];
 
 export default function Home() {
-	return (
-		<div className={styles.container}>
-			<HeaderResponsive links={mockLinks} />
-		</div>
-	);
+	return <HeaderResponsive links={mockLinks} />;
 }
