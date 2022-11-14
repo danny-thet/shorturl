@@ -1,11 +1,11 @@
-import { HeaderResponsiveTest } from "../components/HeaderResponsiveTest";
+import { HeaderResponsiveTest } from '../components/HeaderResponsiveTest'
 
 const mockLinks = [
-	{ link: "One", label: "One" },
-	{ link: "Two", label: "Two" },
-	{ link: "Three", label: "Three" },
-];
+  { link: 'One', label: 'One' },
+  { link: 'Two', label: 'Two' },
+  { link: 'Three', label: 'Three' },
+]
 
 export default function Home() {
-	return <HeaderResponsiveTest links={mockLinks} />;
+  return <HeaderResponsiveTest links={mockLinks} />
 }
