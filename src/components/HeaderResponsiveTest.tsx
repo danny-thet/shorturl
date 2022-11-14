@@ -95,7 +95,7 @@ type HeaderResponsiveProps = {
 	links: { link: string; label: string }[];
 };
 
-export const HeaderResponsive = ({ links }: HeaderResponsiveProps) => {
+export const HeaderResponsiveTest = ({ links }: HeaderResponsiveProps) => {
 	const [opened, { toggle, close }] = useDisclosure(false);
 	const [active, setActive] = useState(links[0].link);
 	const { classes, cx } = useStyles();
