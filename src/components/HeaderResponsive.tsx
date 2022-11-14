@@ -127,14 +127,13 @@ export const HeaderResponsive = ({ links }: HeaderResponsiveProps) => {
 				<Group spacing={5} className={classes.links}>
 					{items}
 				</Group>
-
 				<Burger
 					opened={opened}
 					onClick={toggle}
 					className={classes.burger}
 					size="sm"
 				/>
-
+				Console.log Something
 				<Transition transition="pop-top-right" duration={200} mounted={opened}>
 					{(styles) => (
 						<Paper className={classes.dropdown} withBorder style={styles}>
